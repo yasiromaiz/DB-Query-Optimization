@@ -42,8 +42,8 @@ This project analyzes query performance and data processing techniques in both r
 
 ### Querying
 - Retrieved documents using:
-  ```json
-  { "reviews.rating": { "$gte": 4 } }
+```json
+{ "reviews.rating": { "$gte": 4 } }
 
   ## 📊 Results and Observations
 
@@ -64,14 +64,29 @@ This project analyzes query performance and data processing techniques in both r
   - Phone → 4
   - Shoes → 4
 
+### 🔍 Ranking and Retrieval
+
+- Implemented ranking of products based on average rating
+- Used aggregation pipeline with $unwind, $group, and $sort
+Simulates a basic information retrieval system by ranking items based on relevance (user ratings)
+
   ---
 
-## 📸 Screenshots
 
-- Before Indexing (MySQL EXPLAIN)
-- After Indexing (MySQL EXPLAIN)
-- MongoDB Query without Index
-- MongoDB Aggregation Output
+## 📸 Results Screenshots
+
+### MySQL Optimization
+![Before Index](results/before_index.png)
+![After Index](results/after_index.png)
+
+### MongoDB Query (Without Index)
+![Mongo Query](results/mongo_query_no_index.png)
+
+### MongoDB Aggregation Output
+![Aggregation](results/aggregation_output.png)
+
+### Product Ranking (Information Retrieval Simulation)
+![Ranking](results/ranking_output.png)
 
 
 ---
@@ -83,3 +98,6 @@ This project analyzes query performance and data processing techniques in both r
 - Learned how databases avoid full table scans using indexes
 - Worked with semi-structured JSON data in MongoDB
 - Applied aggregation pipelines ($unwind, $group) for data analysis
+
+
+This project demonstrates how database systems support efficient querying and retrieval across both structured and semi-structured data environments.
