@@ -76,14 +76,14 @@ Simulates a basic information retrieval system by ranking items based on relevan
 ## 📸 Results Screenshots
 
 ### MySQL Optimization
-![Before Index](results/before_index.png)
-![After Index](results/after_index.png)
+![Before Index](./results/before_index.png)
+![After Index](./results/after_index.png)
 
 ### MongoDB Query (Without Index)
-![Mongo Query](results/mongo_query_no_index.png)
+![Mongo Query](./results/mongo_query_no_index.png)
 
 ### MongoDB Aggregation Output
-![Aggregation](results/aggregation_output.png)
+![Aggregation](./results/aggregation_output.png)
 
 ### Product Ranking (Information Retrieval Simulation)
 ![Ranking](results/ranking_output.png)
