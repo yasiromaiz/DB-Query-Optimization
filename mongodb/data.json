@@ -1,0 +1,25 @@
+[
+  {
+    "user": "Amit",
+    "city": "Delhi",
+    "reviews": [
+      {"product": "Laptop", "rating": 5},
+      {"product": "Shoes", "rating": 4}
+    ]
+  },
+  {
+    "user": "Sara",
+    "city": "Mumbai",
+    "reviews": [
+      {"product": "Phone", "rating": 4},
+      {"product": "Laptop", "rating": 3}
+    ]
+  },
+  {
+    "user": "John",
+    "city": "Bangalore",
+    "reviews": [
+      {"product": "Laptop", "rating": 5}
+    ]
+  }
+]

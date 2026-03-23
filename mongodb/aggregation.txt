@@ -1,0 +1,8 @@
+Stage 1: $unwind
+"$reviews"
+
+Stage 2: $group
+{
+  _id: "$reviews.product",
+  avgRating: { $avg: "$reviews.rating" }
+}
