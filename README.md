@@ -44,8 +44,9 @@ This project analyzes query performance and data processing techniques in both r
 - Retrieved documents using:
 ```json
 { "reviews.rating": { "$gte": 4 } }
+```
 
-  ## 📊 Results and Observations
+### 📊 Results and Observations
 
 ### MySQL Query Optimization
 - Before indexing:
@@ -73,7 +74,7 @@ Simulates a basic information retrieval system by ranking items based on relevan
   ---
 
 
-## 📸 Results Screenshots
+### 📸 Results Screenshots
 
 ### MySQL Optimization
 ![Before Index](./results/before_index.png)
@@ -86,7 +87,7 @@ Simulates a basic information retrieval system by ranking items based on relevan
 ![Aggregation](./results/aggregation_output.png)
 
 ### Product Ranking (Information Retrieval Simulation)
-![Ranking](results/ranking_output.png)
+![Ranking](./results/ranking_output.png)
 
 
 ---
